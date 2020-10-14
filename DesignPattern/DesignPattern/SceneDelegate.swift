@@ -1,8 +1,5 @@
 //
-//  SceneDelegate.swift
-//  DesignPattern
-//
-//  Created by 麦田 on 2020/10/14.
+//  Created by Joker on 2020/10/14.
 //  Copyright © 2020 Joker. All rights reserved.
 //
 

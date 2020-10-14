@@ -15,6 +15,8 @@
 		666858B9253757B7007C25D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666858B7253757B7007C25D3 /* LaunchScreen.storyboard */; };
 		666858C4253757B8007C25D3 /* DesignPatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666858C3253757B8007C25D3 /* DesignPatternTests.swift */; };
 		666858CF253757B8007C25D3 /* DesignPatternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666858CE253757B8007C25D3 /* DesignPatternUITests.swift */; };
+		666858E325375969007C25D3 /* SimpleFactoryPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666858E225375969007C25D3 /* SimpleFactoryPattern.swift */; };
+		666858E525376DE3007C25D3 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666858E425376DE3007C25D3 /* Operation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		666858CA253757B8007C25D3 /* DesignPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		666858CE253757B8007C25D3 /* DesignPatternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatternUITests.swift; sourceTree = "<group>"; };
 		666858D0253757B8007C25D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		666858E225375969007C25D3 /* SimpleFactoryPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFactoryPattern.swift; sourceTree = "<group>"; };
+		666858E425376DE3007C25D3 /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,8 +136,18 @@
 		666858DE253758A0007C25D3 /* Design Pattern */ = {
 			isa = PBXGroup;
 			children = (
+				666858E12537594C007C25D3 /* 01 Simple Factory Pattern */,
 			);
 			path = "Design Pattern";
+			sourceTree = "<group>";
+		};
+		666858E12537594C007C25D3 /* 01 Simple Factory Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				666858E225375969007C25D3 /* SimpleFactoryPattern.swift */,
+				666858E425376DE3007C25D3 /* Operation.swift */,
+			);
+			path = "01 Simple Factory Pattern";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +282,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				666858B1253757B5007C25D3 /* ViewController.swift in Sources */,
+				666858E325375969007C25D3 /* SimpleFactoryPattern.swift in Sources */,
 				666858AD253757B5007C25D3 /* AppDelegate.swift in Sources */,
+				666858E525376DE3007C25D3 /* Operation.swift in Sources */,
 				666858AF253757B5007C25D3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
