@@ -21,6 +21,7 @@
 		666858CF253757B8007C25D3 /* DesignPatternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666858CE253757B8007C25D3 /* DesignPatternUITests.swift */; };
 		666858E325375969007C25D3 /* SimpleFactoryPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666858E225375969007C25D3 /* SimpleFactoryPattern.swift */; };
 		666858E525376DE3007C25D3 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666858E425376DE3007C25D3 /* Operation.swift */; };
+		668D84A3254D12A20019FACD /* OpenClosedPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668D84A2254D12A20019FACD /* OpenClosedPrinciple.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		666858D0253757B8007C25D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		666858E225375969007C25D3 /* SimpleFactoryPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFactoryPattern.swift; sourceTree = "<group>"; };
 		666858E425376DE3007C25D3 /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		668D84A2254D12A20019FACD /* OpenClosedPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenClosedPrinciple.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,9 +164,10 @@
 		666858DE253758A0007C25D3 /* Design Pattern */ = {
 			isa = PBXGroup;
 			children = (
-				666858E12537594C007C25D3 /* 01 Simple Factory Pattern */,
-				66541DA7253F34870089E54F /* 02 Strategy Pattern */,
+				668D84A1254D125C0019FACD /* 04 Open-Closed Principle */,
 				66541DAE25408F780089E54F /* 03 Single Responsibility Principle */,
+				66541DA7253F34870089E54F /* 02 Strategy Pattern */,
+				666858E12537594C007C25D3 /* 01 Simple Factory Pattern */,
 			);
 			path = "Design Pattern";
 			sourceTree = "<group>";
@@ -176,6 +179,14 @@
 				666858E425376DE3007C25D3 /* Operation.swift */,
 			);
 			path = "01 Simple Factory Pattern";
+			sourceTree = "<group>";
+		};
+		668D84A1254D125C0019FACD /* 04 Open-Closed Principle */ = {
+			isa = PBXGroup;
+			children = (
+				668D84A2254D12A20019FACD /* OpenClosedPrinciple.swift */,
+			);
+			path = "04 Open-Closed Principle";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +322,7 @@
 			files = (
 				66541DAB253F366B0089E54F /* StrategyInterface.swift in Sources */,
 				666858B1253757B5007C25D3 /* ViewController.swift in Sources */,
+				668D84A3254D12A20019FACD /* OpenClosedPrinciple.swift in Sources */,
 				66541DAD253F368B0089E54F /* StrategyImpl.swift in Sources */,
 				66541DA9253F34F80089E54F /* StrategyPattern.swift in Sources */,
 				666858E325375969007C25D3 /* SimpleFactoryPattern.swift in Sources */,
